@@ -430,6 +430,9 @@ a.icons-menu-button:focus,
 .head .logo-page{
     margin-right: 30px;
     float: left;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
 }
 .head .btn-close{
     width: 36px;
@@ -772,7 +775,7 @@ a.icons-menu-button:focus,
 }
 .map{
     width: 100%;
-    height: 370px;
+    height: 265px;
     border-width: 1px;
     border-style: solid;
 }

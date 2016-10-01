@@ -1,10 +1,3 @@
-/*
- Author: Ukieweb
- Template: ukieCard
- Version: 1.0
- URL: http://themeforest.net/user/UkieWeb
- */
-
 $(document).ready(function(){
 
     "use strict";

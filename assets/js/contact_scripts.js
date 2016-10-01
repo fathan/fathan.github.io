@@ -1,11 +1,3 @@
-/*
- Author: Ukieweb
- Template: ukieCard
- Version: 1.0
- URL: http://themeforest.net/user/UkieWeb
- */
-
-
 $(document).ready(function(){
 
     "use strict";
@@ -19,9 +11,9 @@ $(document).ready(function(){
     function initialize_map() {
 
         if ($('.map').length) {
-            var myLatLng = new google.maps.LatLng(39.987686, -82.970916);
+            var myLatLng = new google.maps.LatLng(-6.301709, 106.818926);
             var mapOptions = {
-                zoom: 7,
+                zoom: 15,
                 center: myLatLng,
                 scrollwheel: false,
                 panControl: false,
@@ -34,7 +26,7 @@ $(document).ready(function(){
             var marker = new google.maps.Marker({
                 position: myLatLng,
                 map: map,
-                title: 'UkieWeb',
+                title: 'Location, Fathan Rohman S.T',
                 icon: './assets/img/marker-' + $('#stylesheet-new').attr('data-color') + '.png'
             });
         } else {
