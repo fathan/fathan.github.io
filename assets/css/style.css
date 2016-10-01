@@ -1,9 +1,4 @@
 /* ==============================================
-
-Template: ukieCard
-Version: 1.0
-Author:	Ukieweb
-
     - General setting
     - Home header
     - Menu section
@@ -246,6 +241,7 @@ a:hover, a:visited, a:focus, a:active{
 .home-header .title{
     text-transform: uppercase;
     margin-bottom: 0;
+    font-size: 3em;
 }
 .home-header .sub-title{
     font-weight: 300;
