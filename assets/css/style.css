@@ -225,6 +225,10 @@ a:hover, a:visited, a:focus, a:active{
 /* ------------------
     Home header
 --------------------*/
+.home-header{
+    background: #0070C0;
+}
+
 .home-header .foto{
     border-radius: 50%;
     border-width: 1px;
@@ -242,11 +246,13 @@ a:hover, a:visited, a:focus, a:active{
     text-transform: uppercase;
     margin-bottom: 0;
     font-size: 3em;
+    color: #FFFFFF;
 }
 .home-header .sub-title{
     font-weight: 300;
     margin: 0;
     line-height: 34px;
+    color: #FFFFFF;
 }
 .home-header  .full-length-photo{
     margin-top: 24px;
@@ -398,8 +404,10 @@ a.icons-menu-button:focus,
     padding: 17px 0;
     border-top-width: 1px;
     border-top-style: solid;
+    background: #525659;
 }
 .footer a{
+    color: #FFFFFF;
 }
 .footer .ukie-icons{
 }
