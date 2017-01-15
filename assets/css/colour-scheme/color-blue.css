@@ -177,8 +177,10 @@ a.icons-menu-button:focus,
     border-color: #dfdfdf;
 }
 .skills .progress-bar span{
-    color: #000000;
-    background: #fff;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    background: #5cc228;
     border-color: #d6d6d6;
 }
 .skills .circle-progress-block input{
