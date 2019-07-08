@@ -12,7 +12,8 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: pkg.description }
+      { hid: 'description', name: 'description', content: pkg.description },
+      { name: 'google-site-verification', content: 'Lrag3LpOLdb0BNSOpgVMPHqm0cmXmC95ZfW8FqEpa9w' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -43,8 +44,7 @@ module.exports = {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     // Doc:https://github.com/nuxt-community/modules/tree/master/packages/bulma
-    '@nuxtjs/bulma',
-    '@nuxtjs/pwa',
+    '@nuxtjs/bulma'
   ],
   /*
   ** Axios module configuration
