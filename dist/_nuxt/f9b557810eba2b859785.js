@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{171:function(n,t,e){"use strict";e.r(t);var c={data:function(){return{active:!1}}},r=e(18),component=Object(r.a)(c,function(){var n=this.$createElement;return(this._self._c||n)("div",[this._v("\n  Fathan Rohman, S.T\n")])},[],!1,null,null,null);t.default=component.exports}}]);
