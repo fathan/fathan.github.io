@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "cross-env": "^5.2.0",
-    "nuxt": "^2.4.0",
+    "nuxt": "^3.4.3",
     "express": "^4.16.4",
     "@nuxtjs/bulma": "^1.2.1",
     "@nuxtjs/axios": "^5.3.6",
