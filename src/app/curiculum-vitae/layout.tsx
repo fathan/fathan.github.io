@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import "./globals.css";
+import "./global.css";
 
 export const metadata: Metadata = {
-  title: "Fathan Rohman - Web Developer",
+  title: "Fathan Rohman - Curiculum Vitae",
   description: "Personal web profile fathan rohman, software engineer from indonesia",
 };
 
@@ -13,7 +13,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
+      <body className="container mx-auto w-6/12">
         {children}
       </body>
     </html>
