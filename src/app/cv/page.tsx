@@ -75,7 +75,7 @@ const CuriculumVitae = () => {
             </div>
             <ul className="text-base list-disc ml-12">
               <li>
-                Develop HRIS (Human Resource Management System) application Web Dashboard with stack like a Vue 3 composition API, Vite, WebSocket, Pinia state management, TailwindCSS.
+                Develop AFMS 2.0 (Application Filing Management System) application Web Dashboard with stack like a Vue 3 composition API, Vite, WebSocket, Pinia state management, TailwindCSS.
               </li>
             </ul>
           </div>
