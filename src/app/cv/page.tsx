@@ -1,32 +1,38 @@
 import Image from "next/image";
 
 const CuriculumVitae = () => {
+  const skills = [
+    "Javascript", "Typescript", "Node.js", "React.js", "Vue.js", "Next.js", "Nuxt.js", 
+    "React Native", "Ionic", "HTML", "CSS", "SCSS", "SASS", "BEM", "Git", "Bootstrap", 
+    "TailwindCSS", "Express.js", "MySQL", "Electron", "WebSocket"
+  ];
+
   return (
-    <div className="bg-white min-h-screen p-8">
-      <section className="flex flex-row justify-between w-full">
+    <div className="bg-[#000]/60 min-h-screen p-8 text-[#e1e1e1] rounded-lg">
+      <section className="flex flex-col lg:flex-row justify-between w-full">
         <div className="flex flex-row gap-4">
-          <div>
+          <div className="w-20 sm:w-24 md:w-28 lg:w-36 xl:w-40">
             <Image
-              src={'https://avatars.githubusercontent.com/u/4404526?v=4'}
+              src="https://avatars.githubusercontent.com/u/4404526?v=4"
               alt="Fathan Rohman"
-              width={100}
-              height={100}
-              className="inline-block size-36 rounded-full ring-2 ring-white"
+              width={200}
+              height={200}
+              className="w-full h-auto rounded-full ring-2 ring-white"
             />
           </div>
 
           <div className="flex flex-col justify-center text-left">
-            <div className="font-bold text-3xl">
+            <div className="font-bold text-3xl text-[#e1e1e1]">
               Fathan Rohman
             </div>
 
-            <div>
-              Frontend Developer
+            <div className="text-[#e1e1e1]">
+              Frontend Web Developer
             </div>
           </div>
         </div>
 
-        <div className="text-right mt-8">
+        <div className="text-left lg:text-right mt-8">
           <div className="flex flex-col gap-1">
             <div>081282951768</div>
             <div>karir.fathan@gmail.com</div>
@@ -36,14 +42,14 @@ const CuriculumVitae = () => {
       </section>
 
       <section className="flex flex-col w-full mt-10">
-        <div className="border-b w-full border-[#214c87] mb-4">
-          <span className="font-semibold text-2xl text-[#214c87]">
+        <div className="border-b w-full border-[#e1e1e1] mb-4">
+          <span className="font-semibold text-2xl text-[#e1e1e1]">
             Career Objective
           </span>
         </div>
 
         <div className="flex flex-col gap-4">
-          <p>
+          <p className="">
             As an ambitious and skilled frontend developer, my objective is to leverage my expertise in crafting seamless user experiences and cutting-edge web applications to contribute significantly to a dynamic and innovative team. With a solid foundation in HTML, CSS, JavaScript or Typescript, coupled with a passion for staying abreast of emerging technologies, I aim to drive digital innovation and elevate user engagement through intuitive and visually stunning interfaces.
           </p>
           <p>
@@ -53,19 +59,19 @@ const CuriculumVitae = () => {
       </section>
 
       <section className="flex flex-col w-full mt-10">
-        <div className="border-b w-full border-[#214c87] mb-4">
-          <span className="font-semibold text-2xl text-[#214c87]">
-            Work Experience
+        <div className="border-b w-full border-[#e1e1e1] mb-4">
+          <span className="font-semibold text-2xl text-[#e1e1e1]">
+            Experience
           </span>
         </div>
 
         <div className="flex flex-col gap-6">
           <div className="flex flex-col gap-2">
-            <div className="font-bold text-lg">
-              Software Engineer, Frontend
+            <div className="font-bold text-lg text-[#00dc82]">
+              Software Developer, Frontend
             </div>
             <div className="text-base">
-              PT. Am Badar & Am Badar - Jakarta - <span className="text-green-600 italic">Feb 2025 – Present</span> (Hybrid)
+              PT. Am Badar & Am Badar - Jakarta - <span className="text-orange-400 italic">Feb 2025 – Present</span> (Hybrid)
             </div>
             <ul className="text-base list-disc ml-12">
               <li>
@@ -75,11 +81,11 @@ const CuriculumVitae = () => {
           </div>
 
           <div className="flex flex-col gap-2">
-            <div className="font-bold text-lg">
+            <div className="font-bold text-lg text-[#00dc82]">
               Frontend Engineer
             </div>
             <div className="text-base">
-              PT. Inovasi Niaga Integrasi (Waizly) - Jakarta - <span className="text-green-600 italic">Jan 2023 – Present</span> (Freelance/Remote)
+              PT. Inovasi Niaga Integrasi (Waizly) - Jakarta - <span className="text-orange-400 italic">Jan 2023 – Present</span> (Freelance/Remote)
             </div>
             <ul className="text-base list-disc ml-12">
               <li>
@@ -98,11 +104,11 @@ const CuriculumVitae = () => {
           </div>
 
           <div className="flex flex-col gap-2">
-            <div className="font-bold text-lg">
+            <div className="font-bold text-lg text-[#00dc82]">
               Frontend Engineer
             </div>
             <div className="text-base">
-              PT. Depoguna Bangunan Online (DBC Djabesmen Group) - Jakarta - <span className="text-green-600 italic">Sep 2023 – Feb 2024</span>
+              PT. Depoguna Bangunan Online (DBC Djabesmen Group) - Jakarta - <span className="text-orange-400 italic">Sep 2023 – Feb 2024</span>
             </div>
             <ul className="text-base list-disc ml-12">
               <li>
@@ -115,11 +121,11 @@ const CuriculumVitae = () => {
           </div>
           
           <div className="flex flex-col gap-2">
-            <div className="font-bold text-lg">
+            <div className="font-bold text-lg text-[#00dc82]">
               Frontend Engineer
             </div>
             <div className="text-base">
-              PT. Global Loket Sejahtera (LOKET) - Jakarta - <span className="text-green-600 italic">Jan 2019 – Nov 2022</span>
+              PT. Global Loket Sejahtera (LOKET) - Jakarta - <span className="text-orange-400 italic">Jan 2019 – Nov 2022</span>
             </div>
             <ul className="text-base list-disc ml-12">
               <li>
@@ -138,11 +144,11 @@ const CuriculumVitae = () => {
           </div>
 
           <div className="flex flex-col gap-2">
-            <div className="font-bold text-lg">
+            <div className="font-bold text-lg text-[#00dc82]">
               Frontend Engineer
             </div>
             <div className="text-base">
-            PT. Wmotion Global Teknologi (Wmotion) - Jakarta – <span className="text-green-600 italic">Mei 2018 – Okt 2018</span>
+            PT. Wmotion Global Teknologi (Wmotion) - Jakarta – <span className="text-orange-400 italic">Mei 2018 – Okt 2018</span>
             </div>
             <ul className="text-base list-disc ml-12">
               <li>
@@ -155,11 +161,11 @@ const CuriculumVitae = () => {
           </div>
 
           <div className="flex flex-col gap-2">
-            <div className="font-bold text-lg">
+            <div className="font-bold text-lg text-[#00dc82]">
               Frontend Engineer
             </div>
             <div className="text-base">
-              PT. Apecsa Optima Solusi - Jakarta – <span className="text-green-600 italic">April 2016 – Jan 2018</span>
+              PT. Apecsa Optima Solusi - Jakarta – <span className="text-orange-400 italic">April 2016 – Jan 2018</span>
             </div>
             <ul className="text-base list-disc ml-12">
               <li>
@@ -180,8 +186,8 @@ const CuriculumVitae = () => {
       </section>
 
       <section className="flex flex-col w-full mt-10">
-        <div className="border-b w-full border-[#214c87] mb-4">
-          <span className="font-semibold text-2xl text-[#214c87]">
+        <div className="border-b w-full border-[#e1e1e1] mb-4">
+          <span className="font-semibold text-2xl text-[#e1e1e1]">
             Education
           </span>
         </div>
@@ -202,8 +208,8 @@ const CuriculumVitae = () => {
       </section>
 
       <section className="flex flex-col w-full mt-10">
-        <div className="border-b w-full border-[#214c87] mb-4">
-          <span className="font-semibold text-2xl text-[#214c87]">
+        <div className="border-b w-full border-[#e1e1e1] mb-4">
+          <span className="font-semibold text-2xl text-[#e1e1e1]">
             Skills
           </span>
         </div>
@@ -212,8 +218,16 @@ const CuriculumVitae = () => {
           <div className="font-bold text-lg">
             Software Skills
           </div>
-          <div>
-            Javascript, Typescript, Node.js, React.js, Vue.js, Next.js, Nuxt.js, React Native, Ionic, HTML, CSS, SCSS, SASS, BEM, Git, Bootstrap, TailwindCSS, Express.js, MySQL, Electron, WebSocket.
+          
+          <div className="flex flex-wrap gap-3">
+            {skills.map((skill, idx) => (
+              <span
+                key={idx}
+                className="px-4 py-1 text-[#00dc82] font-medium rounded-full border border-[#00dc82] hover:bg-[#00dc82] hover:text-gray-700 transition shadow-sm cursor-pointer"
+              >
+                {skill}
+              </span>
+            ))}
           </div>
         </div>
 
@@ -228,8 +242,8 @@ const CuriculumVitae = () => {
       </section>
 
       <section className="flex flex-col w-full mt-10">
-        <div className="border-b w-full border-[#214c87] mb-4">
-          <span className="font-semibold text-2xl text-[#214c87]">
+        <div className="border-b w-full border-[#e1e1e1] mb-4">
+          <span className="font-semibold text-2xl text-[#e1e1e1]">
             Portfolio
           </span>
         </div>
