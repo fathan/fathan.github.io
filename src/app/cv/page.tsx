@@ -61,7 +61,7 @@ const CuriculumVitae = () => {
       <section className="flex flex-col w-full mt-10">
         <div className="border-b w-full border-[#e1e1e1] mb-4">
           <span className="font-semibold text-2xl text-[#e1e1e1]">
-            Experience
+            Experiences
           </span>
         </div>
 
