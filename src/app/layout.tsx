@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Fathan Rohman - Web Developer",
-  description: "Personal web profile fathan rohman, software engineer from indonesia",
+  description: "Personal web profile fathan rohman, software engineer, frontend web developer from indonesia",
 };
 
 export default function RootLayout({
