@@ -22,7 +22,7 @@ const CuriculumVitae = () => {
           </div>
 
           <div className="flex flex-col justify-center text-left">
-            <div className="font-bold text-3xl text-[#333333]">
+            <div className="font-bold text-xl lg:text-3xl text-[#333333]">
               Fathan Rohman
             </div>
 
