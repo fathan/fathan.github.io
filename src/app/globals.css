@@ -16,9 +16,8 @@
 
 body {
   color: var(--foreground);
-  background: var(--foreground);
+  background: #f8f9fc;
   font-family: "Montserrat", sans-serif;
-  @apply bg-gradient-to-r from-gray-900 via-[#575757] to-gray-900;
 }
 
 @layer utilities {

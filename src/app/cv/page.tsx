@@ -8,25 +8,25 @@ const CuriculumVitae = () => {
   ];
 
   return (
-    <div className="bg-[#000]/60 min-h-screen p-8 text-[#e1e1e1] rounded-lg">
+    <div className="bg-white min-h-screen p-8 text-[#333333]">
       <section className="flex flex-col lg:flex-row justify-between w-full">
         <div className="flex flex-row gap-4">
-          <div className="w-20 sm:w-24 md:w-28 lg:w-36 xl:w-40">
+          <div className="w-20 sm:w-24 md:w-28 lg:w-32">
             <Image
               src="https://avatars.githubusercontent.com/u/4404526?v=4"
               alt="Fathan Rohman"
               width={200}
               height={200}
-              className="w-full h-auto rounded-full ring-2 ring-white"
+              className="w-full h-auto rounded-full"
             />
           </div>
 
           <div className="flex flex-col justify-center text-left">
-            <div className="font-bold text-3xl text-[#e1e1e1]">
+            <div className="font-bold text-3xl text-[#333333]">
               Fathan Rohman
             </div>
 
-            <div className="text-[#e1e1e1]">
+            <div className="text-[#333333]">
               Frontend Web Developer
             </div>
           </div>
@@ -34,16 +34,16 @@ const CuriculumVitae = () => {
 
         <div className="text-left lg:text-right mt-8">
           <div className="flex flex-col gap-1">
-            <div>081282951768</div>
-            <div>karir.fathan@gmail.com</div>
+            <a href="tel:+6281282951768">+62 812 8295 1768</a>
+            <a href="mailto:karir.fathan@gmail.com">karir.fathan@gmail.com</a>
             <div>Sukabumi, West Java, Indonesia</div>
           </div>
         </div>
       </section>
 
       <section className="flex flex-col w-full mt-10">
-        <div className="border-b w-full border-[#e1e1e1] mb-4">
-          <span className="font-semibold text-2xl text-[#e1e1e1]">
+        <div className="border-b w-full border-[#e1e0e0] mb-4">
+          <span className="font-semibold text-2xl text-[#333333]">
             Career Objective
           </span>
         </div>
@@ -59,19 +59,19 @@ const CuriculumVitae = () => {
       </section>
 
       <section className="flex flex-col w-full mt-10">
-        <div className="border-b w-full border-[#e1e1e1] mb-4">
-          <span className="font-semibold text-2xl text-[#e1e1e1]">
+        <div className="border-b w-full border-[#e1e0e0] mb-4">
+          <span className="font-semibold text-2xl text-[#333333]">
             Experiences
           </span>
         </div>
 
         <div className="flex flex-col gap-6">
           <div className="flex flex-col gap-2">
-            <div className="font-bold text-lg text-[#00dc82]">
+            <div className="font-semibold text-lg text-[#0f182b]">
               Software Developer, Frontend
             </div>
             <div className="text-base">
-              PT. Am Badar & Am Badar - Jakarta - <span className="text-orange-400 italic">Feb 2025 – Present</span> (Hybrid)
+              PT. Am Badar & Am Badar IP Law Firm - Jakarta - <span className="text-orange-400 italic">Feb 2025 – Present</span> (Hybrid)
             </div>
             <ul className="text-base list-disc ml-12">
               <li>
@@ -81,7 +81,7 @@ const CuriculumVitae = () => {
           </div>
 
           <div className="flex flex-col gap-2">
-            <div className="font-bold text-lg text-[#00dc82]">
+            <div className="font-semibold text-lg text-[#0f182b]">
               Frontend Engineer
             </div>
             <div className="text-base">
@@ -104,7 +104,7 @@ const CuriculumVitae = () => {
           </div>
 
           <div className="flex flex-col gap-2">
-            <div className="font-bold text-lg text-[#00dc82]">
+            <div className="font-semibold text-lg text-[#0f182b]">
               Frontend Engineer
             </div>
             <div className="text-base">
@@ -121,7 +121,7 @@ const CuriculumVitae = () => {
           </div>
           
           <div className="flex flex-col gap-2">
-            <div className="font-bold text-lg text-[#00dc82]">
+            <div className="font-semibold text-lg text-[#0f182b]">
               Frontend Engineer
             </div>
             <div className="text-base">
@@ -144,7 +144,7 @@ const CuriculumVitae = () => {
           </div>
 
           <div className="flex flex-col gap-2">
-            <div className="font-bold text-lg text-[#00dc82]">
+            <div className="font-semibold text-lg text-[#0f182b]">
               Frontend Engineer
             </div>
             <div className="text-base">
@@ -161,7 +161,7 @@ const CuriculumVitae = () => {
           </div>
 
           <div className="flex flex-col gap-2">
-            <div className="font-bold text-lg text-[#00dc82]">
+            <div className="font-semibold text-lg text-[#0f182b]">
               Frontend Engineer
             </div>
             <div className="text-base">
@@ -186,8 +186,8 @@ const CuriculumVitae = () => {
       </section>
 
       <section className="flex flex-col w-full mt-10">
-        <div className="border-b w-full border-[#e1e1e1] mb-4">
-          <span className="font-semibold text-2xl text-[#e1e1e1]">
+        <div className="border-b w-full border-[#e1e0e0] mb-4">
+          <span className="font-semibold text-2xl text-[#333333]">
             Education
           </span>
         </div>
@@ -208,8 +208,8 @@ const CuriculumVitae = () => {
       </section>
 
       <section className="flex flex-col w-full mt-10">
-        <div className="border-b w-full border-[#e1e1e1] mb-4">
-          <span className="font-semibold text-2xl text-[#e1e1e1]">
+        <div className="border-b w-full border-[#e1e0e0] mb-4">
+          <span className="font-semibold text-2xl text-[#333333]">
             Skills
           </span>
         </div>
@@ -219,11 +219,11 @@ const CuriculumVitae = () => {
             Software Skills
           </div>
           
-          <div className="flex flex-wrap gap-3">
+          <div className="flex flex-wrap gap-2">
             {skills.map((skill, idx) => (
               <span
                 key={idx}
-                className="px-4 py-1 text-[#00dc82] font-medium rounded-full border border-[#00dc82] hover:bg-[#00dc82] hover:text-gray-700 transition shadow-sm cursor-pointer"
+                className="px-2 py-1 text-[#009d5c] font-medium rounded-md border border-[#009d5c] hover:bg-[#009d5c] hover:text-white transition cursor-pointer"
               >
                 {skill}
               </span>
@@ -241,13 +241,13 @@ const CuriculumVitae = () => {
         </div>
       </section>
 
-      <section className="flex flex-col w-full mt-10">
-        <div className="border-b w-full border-[#e1e1e1] mb-4">
-          <span className="font-semibold text-2xl text-[#e1e1e1]">
+      {/* <section className="flex flex-col w-full mt-10">
+        <div className="border-b w-full border-[#e1e0e0] mb-4">
+          <span className="font-semibold text-2xl text-[#333333]">
             Portfolio
           </span>
         </div>
-      </section>
+      </section> */}
     </div>
   )
 };
