@@ -4,7 +4,9 @@ const CuriculumVitae = () => {
   const skills = [
     "Javascript", "Typescript", "Node.js", "React.js", "Vue.js", "Next.js", "Nuxt.js", 
     "React Native", "Ionic", "HTML", "CSS", "SCSS", "SASS", "BEM", "Git", "Bootstrap", 
-    "TailwindCSS", "Express.js", "MySQL", "Electron", "WebSocket"
+    "TailwindCSS", "Express.js", "MySQL", "PostgreSQL", "MongoDB", "Redis", "Electron", "WebSocket",
+    "Responsive Web Design", "Progressive Web Apps (PWA)", "Cross-Browser Compatibility",
+    "Version Control/Git", "Agile and Scrum Methodologies"
   ];
 
   return (
@@ -85,7 +87,7 @@ const CuriculumVitae = () => {
               Frontend Engineer
             </div>
             <div className="text-base">
-              PT. Inovasi Niaga Integrasi (Waizly) - Jakarta - <span className="text-orange-400 italic">Jan 2023 – Present</span> (Freelance/Remote)
+              PT. Inovasi Niaga Integrasi (Waizly) - Jakarta - <span className="text-orange-400 italic">Jan 2023 – Jan 2025</span> (Freelance/Remote)
             </div>
             <ul className="text-base list-disc ml-12">
               <li>
