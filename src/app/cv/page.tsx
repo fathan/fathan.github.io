@@ -29,7 +29,7 @@ const CuriculumVitae = () => {
             </div>
 
             <div className="text-[#333333]">
-              Frontend Web Developer
+              Software Developer
             </div>
           </div>
         </div>
@@ -210,29 +210,6 @@ const CuriculumVitae = () => {
       </section>
 
       <section className="flex flex-col w-full mt-10">
-        <div className="border-b w-full border-[#e1e0e0] mb-4">
-          <span className="font-semibold text-2xl text-[#333333]">
-            Skills
-          </span>
-        </div>
-
-        <div className="flex flex-col gap-2">
-          <div className="font-bold text-lg">
-            Software Skills
-          </div>
-          
-          <div className="flex flex-wrap gap-2">
-            {skills.map((skill, idx) => (
-              <span
-                key={idx}
-                className="px-2 py-1 text-[#009d5c] font-medium rounded-md border border-[#009d5c] hover:bg-[#009d5c] hover:text-white transition cursor-pointer"
-              >
-                {skill}
-              </span>
-            ))}
-          </div>
-        </div>
-
         <div className="flex flex-col gap-2 mt-4">
           <div className="font-bold text-lg">
             Language
@@ -243,13 +220,129 @@ const CuriculumVitae = () => {
         </div>
       </section>
 
-      {/* <section className="flex flex-col w-full mt-10">
+      <section className="flex flex-col w-full mt-10">
         <div className="border-b w-full border-[#e1e0e0] mb-4">
           <span className="font-semibold text-2xl text-[#333333]">
-            Portfolio
+            Skills
           </span>
         </div>
-      </section> */}
+      </section>
+
+      <div className="max-w-5xl mx-auto space-y-10">
+        {/* Testing Tools */}
+        <section>
+          <h2 className="text-lg font-semibold text-gray-900 mb-2">
+            Testing Tools
+          </h2>
+          <div className="flex flex-wrap gap-2">
+            <span className="bg-blue-200 text-gray-900 px-3 py-1 rounded-md text-sm font-medium">
+              Jest
+            </span>
+            <span className="bg-blue-200 text-gray-900 px-3 py-1 rounded-md text-sm font-medium">
+              Vitest
+            </span>
+            <span className="bg-blue-200 text-gray-900 px-3 py-1 rounded-md text-sm font-medium">
+              Cypress
+            </span>
+            <span className="bg-blue-200 text-gray-900 px-3 py-1 rounded-md text-sm font-medium">
+              Playwright
+            </span>
+          </div>
+        </section>
+
+        {/* Programming Languages */}
+        <section>
+          <h2 className="text-lg font-semibold text-gray-900 mb-2">
+            Programming Languages
+          </h2>
+          <div className="flex flex-wrap gap-2">
+            <span className="bg-purple-200 text-gray-900 px-3 py-1 rounded-md text-sm font-medium">
+              PHP
+            </span>
+            <span className="bg-yellow-200 text-gray-900 px-3 py-1 rounded-md text-sm font-medium">
+              Javascript
+            </span>
+            <span className="bg-blue-200 text-gray-900 px-3 py-1 rounded-md text-sm font-medium">
+              Typescript
+            </span>
+            <span className="bg-green-300 text-gray-900 px-3 py-1 rounded-md text-sm font-medium">
+              Node.js (Express.js, Nest.js)
+            </span>
+            <span className="bg-red-200 text-gray-900 px-3 py-1 rounded-md text-sm font-medium">
+              Ruby (on Rails)
+            </span>
+          </div>
+        </section>
+
+        {/* Frontend Ecosystem */}
+        <section>
+          <h2 className="text-lg font-semibold text-gray-900 mb-2">
+            Frontend Ecosystem
+          </h2>
+          <div className="flex flex-wrap gap-2">
+            <span className="bg-cyan-200 text-gray-900 px-3 py-1 rounded-md text-sm font-medium">
+              React.js (Next.js, React Native)
+            </span>
+            <span className="bg-green-200 text-gray-900 px-3 py-1 rounded-md text-sm font-medium">
+              Vue.js (Nuxt.js, Ionic Vue)
+            </span>
+            <span className="bg-orange-300 text-gray-900 px-3 py-1 rounded-md text-sm font-medium">
+              Svelte (SvelteKit)
+            </span>
+            <span className="bg-blue-200 text-gray-900 px-3 py-1 rounded-md text-sm font-medium">
+              HTML5
+            </span>
+            <span className="bg-blue-200 text-gray-900 px-3 py-1 rounded-md text-sm font-medium">
+              CSS3
+            </span>
+            <span className="bg-teal-200 text-gray-900 px-3 py-1 rounded-md text-sm font-medium">
+              CSS Framework - TailwindCSS, Bootstrap, UIKit, Bulma
+            </span>
+            <span className="bg-purple-200 text-gray-900 px-3 py-1 rounded-md text-sm font-medium">
+              State Management - Redux, Pinia, Zustand
+            </span>
+          </div>
+        </section>
+
+        {/* Database */}
+        <section>
+          <h2 className="text-lg font-semibold text-gray-900 mb-2">Database</h2>
+          <div className="flex flex-wrap gap-2">
+            <span className="bg-teal-200 text-gray-900 px-3 py-1 rounded-md text-sm font-medium">
+              SQL - MySQL, PostgreSQL
+            </span>
+            <span className="bg-green-200 text-gray-900 px-3 py-1 rounded-md text-sm font-medium">
+              NoSQL - Mongodb
+            </span>
+            <span className="bg-blue-200 text-gray-900 px-3 py-1 rounded-md text-sm font-medium">
+              ORM - Prisma
+            </span>
+          </div>
+        </section>
+
+        {/* Other */}
+        <section>
+          <h2 className="text-lg font-semibold text-gray-900 mb-2">Other</h2>
+          <div className="flex flex-wrap gap-2">
+            <span className="bg-rose-300 text-gray-900 px-3 py-1 rounded-md text-sm font-medium">Redis</span>
+            <span className="bg-green-200 text-gray-900 px-3 py-1 rounded-md text-sm font-medium">
+              API Documentation - Postman
+            </span>
+          </div>
+        </section>
+
+        {/* DevOps Tools */}
+        <section>
+          <h2 className="text-lg font-semibold text-gray-900 mb-2">DevOps Tools</h2>
+          <div className="flex flex-wrap gap-2">
+            <span className="bg-orange-200 text-gray-900 px-3 py-1 rounded-md text-sm font-medium">Git</span>
+            <span className="bg-blue-200 text-gray-900 px-3 py-1 rounded-md text-sm font-medium">Docker</span>
+            <span className="bg-green-200 text-gray-900 px-3 py-1 rounded-md text-sm font-medium">
+              CI/CD - Github Actions
+            </span>
+          </div>
+        </section>
+      </div>
     </div>
   )
 };
