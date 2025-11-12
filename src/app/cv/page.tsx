@@ -1,14 +1,6 @@
 import Image from "next/image";
 
 const CuriculumVitae = () => {
-  const skills = [
-    "Javascript", "Typescript", "Node.js", "React.js", "Vue.js", "Next.js", "Nuxt.js", 
-    "React Native", "Ionic", "HTML", "CSS", "SCSS", "SASS", "BEM", "Git", "Bootstrap", 
-    "TailwindCSS", "Express.js", "MySQL", "PostgreSQL", "MongoDB", "Redis", "Electron", "WebSocket",
-    "Responsive Web Design", "Progressive Web Apps (PWA)", "Cross-Browser Compatibility",
-    "Version Control/Git", "Agile and Scrum Methodologies"
-  ];
-
   return (
     <div className="bg-white min-h-screen p-8 text-[#333333]">
       <section className="flex flex-col lg:flex-row justify-between w-full">
