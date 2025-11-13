@@ -65,7 +65,7 @@ const CuriculumVitae = () => {
               Software Developer, Frontend
             </div>
             <div className="text-base">
-              PT. Am Badar & Am Badar IP Law Firm - Jakarta - <span className="text-orange-400 italic">Feb 2025 – Present</span> (Hybrid)
+              PT. Am Badar & Am Badar IP Law Firm - Jakarta - <span className="text-orange-400 italic">Feb 2025 – Present</span>
             </div>
             <ul className="text-base list-disc ml-12">
               <li>
@@ -335,6 +335,68 @@ const CuriculumVitae = () => {
           </div>
         </section>
       </div>
+
+      <section className="flex flex-col w-full mt-10">
+        <div className="border-b w-full border-[#e1e0e0] mb-8">
+          <span className="font-semibold text-2xl text-[#333333]">
+            Portfolios
+          </span>
+        </div>
+      </section>
+
+      <section>
+        <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-6 max-w-6xl mx-auto">
+          <div className="bg-white shadow-md border border-gray-100 rounded-lg overflow-hidden hover:shadow-lg transition">
+            <div className="p-4">
+              <h3 className="text-lg font-bold">CRM</h3>
+              <p className="text-sm text-gray-500 mt-1">CRM (Customer Relationship Management) is a software application that helps businesses manage their relationships with their customers.</p>
+              <div className="mt-3 flex flex-wrap gap-2 text-xs">
+                <span className="bg-green-200 px-2 py-1 rounded">Vue 3</span>
+                <span className="bg-red-200 px-2 py-1 rounded">Ionic Mobile</span>
+                <span className="bg-gray-100 px-2 py-1 rounded">TypeScript</span>
+                <span className="bg-gray-100 px-2 py-1 rounded">WebSocket</span>
+              </div>
+              <div className="mt-4 flex gap-3">
+                <a href="https://crm.ethos.co.id/" target="_blank" className="text-sm text-blue-600 hover:underline">View Demo</a>
+                <a href="https://play.google.com/store/apps/details?id=com.waizly.crm&hl=id" target="_blank" className="text-sm text-blue-600 hover:underline">Playstore</a>
+              </div>
+            </div>
+          </div>
+          
+          <div className="bg-white shadow-md border border-gray-100 rounded-lg overflow-hidden hover:shadow-lg transition">
+            <div className="p-4">
+              <h3 className="text-lg font-bold">TMDB Movie</h3>
+              <p className="text-sm text-gray-500 mt-1">Simple movie information movies, TV Shows</p>
+              <div className="mt-3 flex flex-wrap gap-2 text-xs">
+                <span className="bg-teal-200 px-2 py-1 rounded">React</span>
+                <span className="bg-gray-100 px-2 py-1 rounded">Next.js</span>
+                <span className="bg-gray-100 px-2 py-1 rounded">TypeScript</span>
+                <span className="bg-gray-100 px-2 py-1 rounded">TailwindCSS</span>
+              </div>
+              <div className="mt-4 flex gap-3">
+                <a href="https://tmdb-movie.fathanrohman.com" target="_blank" className="text-sm text-blue-600 hover:underline">View Demo</a>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-white shadow-md border border-gray-100 rounded-lg overflow-hidden hover:shadow-lg transition">
+            <div className="p-4">
+              <h3 className="text-lg font-bold">Simple TODO List App</h3>
+              <p className="text-sm text-gray-500 mt-1">Simple to do list application for manage task</p>
+              <div className="mt-3 flex flex-wrap gap-2 text-xs">
+                <span className="bg-teal-200 px-2 py-1 rounded">React</span>
+                <span className="bg-gray-100 px-2 py-1 rounded">Next.js</span>
+                <span className="bg-gray-100 px-2 py-1 rounded">TypeScript</span>
+                <span className="bg-gray-100 px-2 py-1 rounded">TailwindCSS</span>
+              </div>
+              <div className="mt-4 flex gap-3">
+                <a href="https://todo-list.fathanrohman.com/todo" target="_blank" className="text-sm text-blue-600 hover:underline">View Demo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
     </div>
   )
 };
