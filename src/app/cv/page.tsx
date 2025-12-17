@@ -409,7 +409,7 @@ const CuriculumVitae = () => {
                 <span className="bg-gray-100 px-2 py-1 rounded">TailwindCSS</span>
               </div>
               <div className="mt-4 flex gap-3">
-                <a href="https://tmdb-movie.fathanrohman.com" target="_blank" className="text-sm text-blue-600 hover:underline">View Demo</a>
+                <a href="https://quran.fathanrohman.com" target="_blank" className="text-sm text-blue-600 hover:underline">View Demo</a>
               </div>
             </div>
           </div>
