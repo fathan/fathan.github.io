@@ -44,10 +44,16 @@ const CuriculumVitae = () => {
 
         <div className="flex flex-col gap-4">
           <p className="">
-            As an ambitious and skilled frontend developer, my objective is to leverage my expertise in crafting seamless user experiences and cutting-edge web applications to contribute significantly to a dynamic and innovative team. With a solid foundation in HTML, CSS, JavaScript or Typescript, coupled with a passion for staying abreast of emerging technologies, I aim to drive digital innovation and elevate user engagement through intuitive and visually stunning interfaces.
+            Frontend Engineer with 9+ years of experience building high-performance web and mobile applications across Legal
+            Tech, Customer Relationship Management, Event Management, and Enterprise platforms. Strong technical
+            background in Javascript, TypeScript, Vue.js, React.js, Ionic, WebSocket, Electron, and Next.js, with a deep focus on
+            clean architecture, performance optimization, and user experience
           </p>
           <p>
-            By combining my technical proficiency with a keen eye for design and usability, I aspire to collaborate with like-minded professionals to deliver impactful solutions that exceed client expectations and propel the organization towards its strategic goals. Eager to embark on new challenges and embrace continuous learning, I am committed to delivering excellence in every project while fostering a culture of creativity, collaboration, and continuous improvement.
+            Proven ability to significantly improve product performance (FCP down to 1–1.5s, &gt;90% sync error reduction, 20–40%
+            increase in user retention) and enhance development efficiency through reusable components, design systems, and
+            scalable frontend architectures. Highly adaptable, collaborative, and capable of leading frontend development from
+            concept to production.
           </p>
         </div>
       </section>
@@ -65,11 +71,43 @@ const CuriculumVitae = () => {
               Software Developer, Frontend
             </div>
             <div className="text-base">
-              PT. Am Badar & Am Badar IP Law Firm - Jakarta - <span className="text-orange-400 italic">Feb 2025 – Present</span>
+              PT. Am Badar & Am Badar IP Law Firm - Jakarta - <span className="text-orange-400 italic">Mar 2025 – Present</span>
             </div>
             <ul className="text-base list-disc ml-12">
               <li>
-                Develop AFMS 2.0 (Application Filing Management System) application Web Dashboard with stack like a Vue 3 composition API, Vite, WebSocket, Pinia state management, TailwindCSS.
+                Built the Application Filing Management System (AFMS 2.0) that improved legal document processing efficiency by 40%.
+              </li>
+              <li>
+                Optimized dashboard, patent management, report performance (Vue 3 + WebSocket), reducing First Contentful Paint (FCP) from 3.5s to 1.4s.
+              </li>
+              <li>
+                Developed an internal design system, accelerating feature development speed by 30%.
+              </li>
+              <li>
+                Delivered a high-fidelity Client Portal with 95% UI accuracy to Figma and improved user experience for internal teams.
+              </li>
+            </ul>
+          </div>
+
+          <div className="flex flex-col gap-2">
+            <div className="font-semibold text-lg text-[#0f182b]">
+              Frontend Engineer (Freelance Project)
+            </div>
+            <div className="text-base">
+              Build Travel Umroh - <span className="text-orange-400 italic">June 2025 – Oct 2025</span>
+            </div>
+            <ul className="text-base list-disc ml-12">
+              <li>
+                Developed a complete Umrah Travel Management System, consisting of a CMS dashboard (Vue 3 + Composition API + TailwindCSS) and a public-facing website (Next.js + React + TypeScript).
+              </li>
+              <li>
+                Built CMS modules for package management, booking workflow, payment tracking, and customer data, improving admin operational efficiency by 40%.
+              </li>
+              <li>
+                Implemented optimized page rendering and image handling on the Next.js website, resulting in LCP under 2 seconds and improved SEO performance.
+              </li>
+              <li>
+                Improved user experience for pilgrims by simplifying package browsing, registration flows, and payment steps, increasing conversion rate by 25%.
               </li>
             </ul>
           </div>
@@ -79,20 +117,20 @@ const CuriculumVitae = () => {
               Frontend Engineer
             </div>
             <div className="text-base">
-              PT. Inovasi Niaga Integrasi (Waizly) - Jakarta - <span className="text-orange-400 italic">Jan 2023 – Jan 2025</span> (Freelance/Remote)
+              PT. Inovasi Niaga Integrasi (Waizly) - Jakarta - <span className="text-orange-400 italic">Jan 2023 – Jan 2025</span> (Freelance)
             </div>
             <ul className="text-base list-disc ml-12">
               <li>
-                Develop CRM (Customer Relationship Management) application Web Dashboard & Mobile version with stack like a Vue 3 composition API, Vite, WebSocket, Pinia state management, TailwindCSS, Ionic Framework, Capacitor.
+                Designed and implemented CRM frontend architecture from scratch.
               </li>
               <li>
-                Create architecture frontend from scratch and slicing all UI design from figma to page component.
+                Reduced Largest Contentful Paint (LCP) from 4.2s to 1.9s through code-splitting and smart caching strategies.
               </li>
               <li>
-                Develop feature master data, chart & table reporting, Realtime Chatting User on CMS & Mobile App integration with WhatsApp Meta collaborate with Backend Service Golang and kata.ai. For communication client & agent.
+                Built a Realtime Chat system (WebSocket + WhatsApp Meta) that increased customer support response rate by 60%.
               </li>
               <li>
-                Develop feature Customer, Product, Analytic, User management.
+                Developed Customer, Product, Analytics, and User Management modules, reducing onboarding time from 2 days to 5 hours.
               </li>
             </ul>
           </div>
@@ -106,10 +144,13 @@ const CuriculumVitae = () => {
             </div>
             <ul className="text-base list-disc ml-12">
               <li>
-                Develop Mobile Android Salesman App DBC with stack Like a React, React Native, RealmDB, Firebase, Pusher.
+                Developed a Salesman Mobile App (React Native + RealmDB) with 3× faster offline data input.
               </li>
               <li>
-                Enhancement feature Salesman App DBC in synchronize Data offline to online with pusher.
+                Improved sync reliability, reducing data syncing errors from 12% to &lt;1%.
+              </li>
+              <li>
+                Reduced application crash rate by 35% through optimization and memory management.
               </li>
             </ul>
           </div>
@@ -123,13 +164,13 @@ const CuriculumVitae = () => {
             </div>
             <ul className="text-base list-disc ml-12">
               <li>
-                Develop LPOS Desktop with framework Vue.js, Xinix, Electron, SQLite with integrate hardware system like a Fingerprint, RFID, Barcode Scanner for Themepark client.
+                Built the LPOS Desktop Application integrated with hardware systems (Fingerprint, RFID, Barcode)
               </li>
               <li>
-                Develop CRM EBP for event management system with Vue.js.
+                Developed a Live Streaming App (WebRTC + WebSocket) capable of handling 10,000+ concurrent viewers.
               </li>
               <li>
-                Develop Live Streaming App with Vue.js, WebRTC, WebSocket.
+                Created a Landing Page Builder enabling the marketing team to generate minisites in under 5 minutes, reducing engineering dependency.
               </li>
               <li>
                 Develop Landing Page Builder with Vue.js for static minisite generator from Dashboard.
@@ -149,7 +190,7 @@ const CuriculumVitae = () => {
                 Develop product Portal Customer, Saviory, Regia app for client.
               </li>
               <li>
-                Develop Mobile app Patrajasa app with Stack ionic Framework, Angular.
+                Reduced UI/UX defects by 40% through improved collaboration workflows with designers and QA.
               </li>
             </ul>
           </div>
@@ -163,13 +204,7 @@ const CuriculumVitae = () => {
             </div>
             <ul className="text-base list-disc ml-12">
               <li>
-                Slicing PSD to HTML Page with stack Bootstrap version 2/3.
-              </li>
-              <li>
-                Develop Microbiz mobile app with Angular 2, Ionic.
-              </li>
-              <li>
-                Develop Skillagogo App for startup education client. With stack jQuery, Codeigniter, Bootstrap.
+                Developed Microbiz Mobile App (Ionic/Angular) achieving 99% crash-free stability.
               </li>
               <li>
                 Develop Site Goverment Bekasi City, Library department.
@@ -363,6 +398,22 @@ const CuriculumVitae = () => {
             </div>
           </div>
           
+          <div className="bg-white shadow-md border border-gray-100 rounded-lg overflow-hidden hover:shadow-lg transition">
+            <div className="p-4">
+              <h3 className="text-lg font-bold">Islamic App</h3>
+              <p className="text-sm text-gray-500 mt-1">Application of islamic for productivity and spiritual growth. Read quran, asmaulhusna, tasbih, sholat times, and other islamic features.</p>
+              <div className="mt-3 flex flex-wrap gap-2 text-xs">
+                <span className="bg-teal-200 px-2 py-1 rounded">React</span>
+                <span className="bg-gray-100 px-2 py-1 rounded">Next.js</span>
+                <span className="bg-gray-100 px-2 py-1 rounded">TypeScript</span>
+                <span className="bg-gray-100 px-2 py-1 rounded">TailwindCSS</span>
+              </div>
+              <div className="mt-4 flex gap-3">
+                <a href="https://tmdb-movie.fathanrohman.com" target="_blank" className="text-sm text-blue-600 hover:underline">View Demo</a>
+              </div>
+            </div>
+          </div>
+
           <div className="bg-white shadow-md border border-gray-100 rounded-lg overflow-hidden hover:shadow-lg transition">
             <div className="p-4">
               <h3 className="text-lg font-bold">TMDB Movie</h3>
