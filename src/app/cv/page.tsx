@@ -400,8 +400,28 @@ const CuriculumVitae = () => {
           
           <div className="bg-white shadow-md border border-gray-100 rounded-lg overflow-hidden hover:shadow-lg transition">
             <div className="p-4">
-              <h3 className="text-lg font-bold">Islamic App</h3>
-              <p className="text-sm text-gray-500 mt-1">Application of islamic for productivity and spiritual growth. Read quran, asmaulhusna, tasbih, sholat times, and other islamic features.</p>
+              <h3 className="text-lg font-bold">Sukabumi Explore (On Progress Developed)</h3>
+              <p className="text-sm text-gray-500 mt-1">
+                Website Geographic Information System (GIS) that displays various tourist attractions in Sukabumi Regency, Indonesia.
+              </p>
+              <div className="mt-3 flex flex-wrap gap-2 text-xs">
+                <span className="bg-teal-200 px-2 py-1 rounded">React</span>
+                <span className="bg-gray-100 px-2 py-1 rounded">Next.js</span>
+                <span className="bg-gray-100 px-2 py-1 rounded">TypeScript</span>
+                <span className="bg-gray-100 px-2 py-1 rounded">TailwindCSS</span>
+              </div>
+              <div className="mt-4 flex gap-3">
+                <a href="https://sukabumi-explore.fathanrohman.com" target="_blank" className="text-sm text-blue-600 hover:underline">View Demo</a>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-white shadow-md border border-gray-100 rounded-lg overflow-hidden hover:shadow-lg transition">
+            <div className="p-4">
+              <h3 className="text-lg font-bold">Islamic App (On Progress Developed)</h3>
+              <p className="text-sm text-gray-500 mt-1">
+                Application of islamic for productivity and spiritual growth. Read quran, asmaulhusna, tasbih, sholat times, and other islamic features.
+              </p>
               <div className="mt-3 flex flex-wrap gap-2 text-xs">
                 <span className="bg-teal-200 px-2 py-1 rounded">React</span>
                 <span className="bg-gray-100 px-2 py-1 rounded">Next.js</span>
