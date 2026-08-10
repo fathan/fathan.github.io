@@ -16,7 +16,7 @@ const Home = () => {
           {/* Introduction */}
           <div className="order-2 justify-self-center md:order-1 md:w-full md:max-w-xl text-center">
             <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-(--primary)">
-              Hello, I'm Fathan Rohman
+              Hello, I`m Fathan Rohman
             </p>
 
             <h1 className="text-4xl font-bold leading-[1.1] tracking-tight text-(--foreground) md:text-5xl lg:text-6xl">
