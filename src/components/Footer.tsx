@@ -18,28 +18,28 @@ const Footer = () => {
           {/* Navigation */}
           <div className="flex items-center gap-6">
             <a
-              href="#home"
+              href="/"
               className="text-sm text-(--muted) transition-colors hover:text-(--primary)"
             >
               Home
             </a>
 
             <a
-              href="#about"
+              href="/about"
               className="text-sm text-(--muted) transition-colors hover:text-(--primary)"
             >
               About
             </a>
 
             <a
-              href="#projects"
+              href="/projects"
               className="text-sm text-(--muted) transition-colors hover:text-(--primary)"
             >
               Projects
             </a>
 
             <a
-              href="#contact"
+              href="/contact"
               className="text-sm text-(--muted) transition-colors hover:text-(--primary)"
             >
               Contact

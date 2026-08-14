@@ -44,28 +44,28 @@ const Navbar = () => {
         {/* Menu */}
         <div className="hidden items-center gap-8 md:flex">
           <Link
-            href="#home"
+            href="/"
             className="text-sm font-medium text-(--foreground] transition-colors hover:text-(--primary)"
           >
             Home
           </Link>
 
           <Link
-            href="#about"
+            href="about"
             className="text-sm font-medium text-(--foreground] transition-colors hover:text-(--primary)"
           >
             About
           </Link>
 
           <Link
-            href="#projects"
+            href="/projects"
             className="text-sm font-medium text-(--foreground) transition-colors hover:text-(--primary)"
           >
             Projects
           </Link>
 
           <Link
-            href="#contact"
+            href="/contact"
             className="text-sm font-medium text-(--foreground) transition-colors hover:text-(--primary)"
           >
             Contact

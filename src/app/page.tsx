@@ -1,12 +1,9 @@
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import Image from "next/image";
+import Link from "next/link";
 
 const Home = () => {
   return (
     <>
-      <Navbar />
-
       <section
         id="home"
         className="mx-auto flex min-h-[calc(100vh-4rem)] max-w-300 items-center border-x border-(--border) px-8 py-16"
@@ -32,19 +29,19 @@ const Home = () => {
             </p>
 
             <div className="mt-8 flex flex-wrap gap-4 justify-center">
-              <a
-                href="#projects"
-                className="rounded-lg bg-(--primary) px-6 py-3 text-sm font-semibold text-white transition-all hover:-translate-y-0.5 hover:opacity-90"
+              <Link
+                href="/projects"
+                className="rounded-lg bg-green-500 px-6 py-3 text-sm font-semibold text-white transition-all hover:-translate-y-0.5 hover:opacity-90"
               >
-                View My Work
-              </a>
+                View my Projects
+              </Link>
 
-              <a
-                href="#contact"
+              <Link
+                href="/contact"
                 className="rounded-lg border border-(--border) px-6 py-3 text-sm font-semibold text-(--foreground) transition-all hover:-translate-y-0.5 hover:border-(--primary) hover:text-(--primary)"
               >
-                Contact Me
-              </a>
+                Contact
+              </Link>
             </div>
           </div>
 
@@ -72,7 +69,7 @@ const Home = () => {
               <div className="relative z-10">
                 
                 {/* Offset Gradient Border */}
-                <div className="absolute inset-0 translate-x-3 translate-y-3 rounded-[2rem] bg-linear-to-br from-blue-500 via-purple-500 to-pink-500 opacity-70" />
+                <div className="absolute inset-0 translate-x-3 translate-y-3 rounded-4xl bg-linear-to-br from-blue-500 via-purple-500 to-pink-500 opacity-70" />
 
                 {/* Image Container */}
                 <div className="relative overflow-hidden rounded-[2rem_0.75rem_2rem_0.75rem] border border-white/10 bg-(--card) p-1.5 shadow-2xl shadow-blue-500/10">
@@ -105,8 +102,6 @@ const Home = () => {
 
         </div>
       </section>
-
-      <Footer />
     </>
   );
 }
